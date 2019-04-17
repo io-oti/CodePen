@@ -1,99 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Io_oTI</title>
-    <style>
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        background: #EEE;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-    .nav {
-        width: 50%;
-        height: 38px;
-        margin: 100px auto;
-        padding: 0 10px;
-        background: #DDD;
-    }
-    
-    .nav:hover {
-        transition: 0.5s;
-        box-shadow: 0 7px 5px rgba(165, 165, 165, 0.5)
-    }
-
-    .menu {
-        display: inline-block;
-        list-style: none;
-    }
-
-    .menu li {
-        margin: 0;
-        padding: 0;
-        float:left;
-    }
-
-    .menu li a {
-        color: #000;
-        padding: 9px;
-        font-size: 16px;
-        display: block;
-        text-decoration: none
-    }
-
-    .menu li a:hover {
-        transition: 0.5s;
-        background: white
-    }
-
-    .search {
-        width: 200px;
-        margin: 0;
-        padding: 5px;
-        float:right;
-        border: none;
-        line-height: 28px;
-    }
-
-    .content {
-        width: 50%;
-        margin: 20px auto;
-    }
-
-    .title, .footer {
-        text-align: center;
-    }
-
-    /* .footer {} */
-    </style>
+    <link rel="stylesheet" href="statics/style.css">
+    <title>My Blog</title>
 </head>
+
 <body>
-    <nav class="nav">
-        <ui class="menu">
-            <li><a href="">Io_oTI</a></li>
-            <li><a href="">Content</a></li>
-            <li><a href="">About</a></li>
-        </ui>
-        <input class="search" type="text" placeholder="Search">
-    </nav>
-    <div class="content">
-        <div class="title"><h1>Title</h1></div>
-        <div class="article">
-            <p class="paragraph">----------------</p>
-            <p class="paragraph">----------------</p>
-            <p class="paragraph">----------------</p>
-            <p class="paragraph">----------------</p>
-            <p class="paragraph">----------------</p>
+    <header class="header"></header>
+    <section class="content">
+        <div class="container">
+            <article>
+                <div class="title">
+                    <h1>Title</h1>
+                </div>
+                <div class="article">
+                    <p class="paragraph">----------------</p>
+                    <p class="paragraph">----------------</p>
+                    <p class="paragraph">----------------</p>
+                </div>
+                <div class="date">Written in 2017.7.1</div>
+            </article>
+            <article>
+                <div class="title">
+                    <h1>Title</h1>
+                </div>
+                <div class="article">
+                    <p class="paragraph">----------------</p>
+                    <p class="paragraph">----------------</p>
+                    <p class="paragraph">----------------</p>
+                </div>
+                <div class="date">Written in 2017.7.1</div>
+            </article>
         </div>
-        <div class="date">Written in 2017.7.1</div>
-    </div>
-    <div class="footer">Copyright ©2017 Io_oTI </div>
+    </section>
+    <input type="checkbox" id="menu" class="menu-cek">
+    <label for="menu" class="menu-btn">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </label>
+    <aside class="sidebar">
+        <ul>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+        </ul>
+    </aside>
+    <footer class="footer">Copyright ©2017 Io_oTI </footer>
 </body>
+
 </html>
